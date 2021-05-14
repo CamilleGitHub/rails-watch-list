@@ -19,18 +19,17 @@
 }
 
 .navbar {
+  display: flex;
   justify-content: space-between;
   background-color: white;
-  height: 30px;
-}
-
-.navmenu {
-
+  height: 100px;
 }
 
 .logo {
-  height: 10%;
+  height: 80px;
+  width: 100px;
+  background-image: asset-url('logo.jpeg');
   background-size: cover;
-  background-color: black;
+  background-position: center;
   opacity: 1;
 }
