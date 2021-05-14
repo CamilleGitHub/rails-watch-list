@@ -10,3 +10,27 @@
 .navbar-lewagon .navbar-brand img {
   width: 40px;
 }
+
+.btn-nav {
+  color: grey;
+  &:hover {
+  color: black;
+}
+}
+
+.navbar {
+  justify-content: space-between;
+  background-color: white;
+  height: 30px;
+}
+
+.navmenu {
+
+}
+
+.logo {
+  height: 10%;
+  background-size: cover;
+  background-color: black;
+  opacity: 1;
+}

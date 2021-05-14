@@ -1,4 +1,6 @@
-<%= @list.name %>
+<div class="banner">
+  <h1><%= @list.name %></h1>
+</div>
 <br>
 <ul>
 <% @list.bookmarks.each do |bookmark| %>
@@ -8,5 +10,5 @@
 </ul>
 <% end %>
 
-<%= link_to "My lists", lists_path, class: "btn btn-primary" %>
+
 <%= link_to "Add a bookmark", new_list_bookmark_path(@list), class: "btn btn-primary" %>
