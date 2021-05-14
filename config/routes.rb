@@ -7,5 +7,5 @@ Rails.application.routes.draw do
   # post '/lists', to: 'lists#create', as: :list
     resources :bookmarks, only: [ :new, :create ]
   end
-  resources :bookmarks, only: [ :destroy ]
+  resources :bookmarks, only: [:destroy]
 end
